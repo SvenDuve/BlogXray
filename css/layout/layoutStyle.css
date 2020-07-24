@@ -4,28 +4,29 @@ body {
 }
 
 a:link {
-    color: rgb(148, 212, 28);
+    color: rgb(150, 148, 136);
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(124, 117, 48);
+    color: rgb(214, 213, 205);
     text-decoration: none;
 }
 
 button {
     border: none;
-    background-color: rgb(201, 187, 62);
     width: 100px;
     height: 25px;
+    margin: 10px;
     transition-duration: 0.5s;
 }
 
 button:hover {
-    background-color: rgb(124, 117, 48);
-    color: rgb(201, 187, 62);
+    background-color: rgb(150, 148, 136);
+    color: rgb(214, 213, 205);
 }
 
 ul {
     list-style-type: circle;
 }
+

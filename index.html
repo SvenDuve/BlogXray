@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="light">
     <div class="container">
-        <h1 class="header box">Heading</h1>
-            <div class="menu box">
+        <h1 class="header box">Blog About The Usage Of Artificial Intelligence In Medicine</h1>
+        <div class="menu box">
                 <h3>Blog Entries</h3>
                 <ul>July
                     <li><a href="./july_2020/blog_entry.html"> July 23rd, 2020</a></li>
@@ -25,27 +25,40 @@
                     <li><a href="#">May 15th, 2020</a></li>
                     <li><a href="#">May 10th, 2020</a></li>
                 </ul>
-            </div>
-            <div class="content nestedBlog">
-                <div class="blogCard" id="mid"> 
-                    <h3>23rd of July, X-ray image detection</h3>
-                    <p>since we had some bla bla x-rays, we wanted to dig deeper <a href="#">...more</a></p>
-                </div>
-                <div class="blogCard" id="mid"> Hello I am a 2nd Entry</div>
-                <div class="blogCard" id="mid"> Hello I am a 3rd Entry</div>
-                <div class="blogCard" id="mid"> Hello I am a 4th Entry</div>
-            </div>
-            <!-- <div class="content nestedBlog">
+        </div>
+        <div class="content nestedBlog">
             <div class="blogCard" id="mid"> 
-                <h3>23rd of July, X-ray image detection</h3>
-                <p>since we had some bla bla x-rays, we wanted to dig deeper </p>
-                <a href="#">blabla</a>
+                <h4>23rd of July, X-ray image detection</h4>
+                <figure>
+                    <img id="smallImg"
+                    src="./images/IM-0135-0001.jpeg"
+                    />
+                    <img id="smallImg"
+                    src="./images/person20_bacteria_64.jpeg"
+                    />
+                    <figcaption>
+                        Healthy(left), bacterial(right)
+                    </figcaption>
+                </figure>
+                <p>
+                    since we had some bla bla x-rays, we wanted to dig deeper <a href="./july_2020/blog_entry.html">...more</a>
+                </p>
             </div>
-            <div class="blogCard" id="mid"> Hello I am a 2nd Entry</div>
-            <div class="blogCard" id="mid"> Hello I am a 3rd Entry</div>
-            <div class="blogCard" id="mid"> Hello I am a 4th Entry</div>
-        </div> -->
-        <p class="footer box">Do you like what you read? Subscribe to this blog here:</p>
+            <div class="blogCard" id="mid">
+                Hello I am a 2nd Entry
+            </div>
+            <div class="blogCard" id="mid">
+                Hello I am a 3rd Entry
+            </div>
+            <div class="blogCard" id="mid">
+                Hello I am a 4th Entry
+            </div>
+        </div>
+        <div class="footer box">
+            <p>Do you like what you read? Subscribe to this blog here: </p>
+            <label for="MailAdress"> Email Adress:</label><textarea id="MailAdress" name="MailAdress" rows="1" cols="15"></textarea>
+            <button id="dark">Submit!</button>
+        </div>
     </div>
 </body>
 </html>
