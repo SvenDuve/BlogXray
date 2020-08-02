@@ -1,7 +1,4 @@
-/* at the top of your main CSS file */
-
 @import './layout/layoutStyle.css';
 @import './layout/structure.css';
 @import './layout/images.css';
 @import './layout/colors.css';
-

@@ -1,4 +1,3 @@
-
 .containerDesign {
     display: grid;
     grid-template-columns: 50%;
@@ -107,7 +106,6 @@
 
     .nestedBlog {
         display: grid;
-        /* grid-area: ct; */
         grid-template-columns: 400px;
         grid-template-rows: auto;
         justify-content: center;
@@ -130,7 +128,6 @@
 
     .nestedEntry {
         display: grid;
-        /* grid-area: ct; */
         grid-template-columns: 450px;
         grid-template-rows: 100px auto auto 100px;
         grid-template-areas: 'hd' 'ai' 'ct' 'sh';
@@ -163,7 +160,6 @@
 
     .nestedBlog {
         display: grid;
-        /* grid-area: ct; */
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
         justify-items: center;
@@ -185,7 +181,6 @@
 
     .nestedEntry {
         display: grid;
-        /* grid-area: ct; */
         grid-template-columns: 1100px;
         grid-template-rows: 100px auto auto 100px;
         grid-template-areas: 'hd' 'ai' 'ct' 'sh';
