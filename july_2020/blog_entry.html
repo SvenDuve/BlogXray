@@ -11,7 +11,7 @@
     <div class="container">
         <h1 class="header box">Blog About The Usage Of Artificial Intelligence In Medicine</h1>
         <div class="menu box">
-                <h3>Blog Entries</h3>
+                <h3>Archives</h3>
                 <ul>July
                     <li>July 23rd, 2020</li>
                     <li><a href="#">July 20th, 2020</a></li>
@@ -25,9 +25,65 @@
                     <li><a href="#">May 15th, 2020</a></li>
                     <li><a href="#">May 10th, 2020</a></li>
                 </ul>
+                <a href="./../index.html">Home</a>
         </div>
         <div class="content box">
-            <a href="../index.html">Back Home</a>
+            <div class="nestedEntry">
+                <div class="headerEntry box">
+                    <h1>Using X-Ray images to accelerate diagnosis of lung infections</h1>
+                </div>
+                <div class="authorEntry box">
+                    <img class="circle" id="smallImg" src="./../images/FB.jpg" alt="">
+                    <ul>
+                        <li>Franz Beckenbauer</li>
+                        <li>The Kaiser</li>
+                        <li>Long time member of FC Bayern Munich</li>
+                        <li>Started his career in a small club close to Munich, then changed to Munich and stayed there all the time. </li>
+                    </ul>
+                </div>
+                <div class="contentEntry box">
+                    <div class="quoteBox">
+                        AI will be the new standard in X-Ray detection
+                    </div>
+                    <p>
+                        We took a batch of approximately 5000 images of x-ray screens of children in China. 
+                        The images were provided by Kaggle. The first issue we detected was class-imbalance. 
+                        There were many more bacterial infections than viral ones. What happens is that if a certain 
+                        class is much bigger than the other, the algorithm finds optimal solutions for predicting a certain 
+                        class.
+                    </p>
+                    <div class="box">
+                        <img id="midImg" src="./../images/IM-0135-0001.jpeg" alt="">
+                    </div>
+                    <p>
+                        Now this can be overcome by making sure classes are balanced. So if we classify three
+                        types of images, we require <u>roughly</u> 33 per cent of each class. Once this is achieved,
+                        the algorithm is not likely to <em>fall over</em> to a certain class.
+                    </p>
+                    <div class="box">
+                        <img id="midImg" src="./../images/person97_virus_181.jpeg" alt="">
+                    </div>
+                    <p>
+                        Class balance can be generated if we use the existing image base and <em>fake</em> new ones
+                        from old picture, by slightly tilting of applying a a very subtle coloring to them. <br> In the 
+                        end we used a Neural Network with a hidden ReLU layer. The success rate was north of 90 per cent. This 
+                        sounds indeed very positive, but there is a lot of work left to do. Have a look at these older posts for 
+                        deeper information on Neural Networds,
+                    </p>
+                    <div class="box">
+                        <a href="#">May 14th, 1920</a>
+                    </div>
+                    <div class="box">
+                        <a href="#">October 31st, 2525</a>
+                    </div>
+                    <p>
+                        If you like what you just read, please do share it:
+                    </p>
+                </div>
+                <div class="shareEntry box">
+                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
         </div>
         <div class="footer box">
             <p>Do you like what you read? Subscribe to this blog here: </p>
